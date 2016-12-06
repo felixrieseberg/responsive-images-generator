@@ -1,4 +1,5 @@
 ### Responsive Images Generator
+[![Build Status](https://travis-ci.org/felixrieseberg/responsive-images-generator.svg?branch=master)](https://travis-ci.org/felixrieseberg/responsive-images-generator)
 Let's say you need to generate some responsive images. Automatically. This package will help you do it. Greatly inspired by [gulp-responsive](https://github.com/mahnunchik/gulp-responsive), which reduced the time it took to build this down to a mere hours. The configuration object is basically the same. If you're using Gulp, just go and use it.
 
 ```
