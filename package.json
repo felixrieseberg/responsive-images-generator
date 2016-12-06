@@ -1,5 +1,5 @@
 {
-  "name": "responive-images-generator",
+  "name": "responsive-images-generator",
   "version": "0.2.0",
   "description": "Generate responsive images",
   "main": "index.js",
