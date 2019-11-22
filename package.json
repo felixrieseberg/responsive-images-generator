@@ -23,12 +23,12 @@
   },
   "homepage": "https://github.com/felixrieseberg/responsive-images-generator#readme",
   "dependencies": {
-    "debug": "^2.3.3",
-    "rename": "^1.0.3",
-    "sharp": "^0.16.2"
+    "debug": "^4.1.1",
+    "rename": "^1.0.4",
+    "sharp": "^0.23.3"
   },
   "devDependencies": {
-    "mocha": "^3.2.0",
-    "standard": "^8.6.0"
+    "mocha": "^6.2.2",
+    "standard": "^14.3.1"
   }
 }
