@@ -13,7 +13,6 @@ module.exports = {
         ecmaVersion: 2016
     },
     env: {
-        browser: true,
         node: true
     }
 };
