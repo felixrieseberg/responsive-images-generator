@@ -11,11 +11,11 @@ const renameImagesToSize = methods.renameImagesToSize
 const imgPath = path.join(__dirname, '../test/images/')
 
 describe('generateResponsiveImage', function () {
-  after(() => {
-    const files = fs.readdirSync(imgPath)
-      .filter((f) => f !== 'aileen.jpg')
+  after(function () {
+      const files = fs.readdirSync(imgPath)
+          .filter((f) => f !== 'aileen.jpg')
 
-    files.forEach((f) => fs.unlinkSync(path.join(imgPath, f)))
+      files.forEach((f) => fs.unlinkSync(path.join(imgPath, f)))
   })
 
   it('should generate some images', function () {
